@@ -3,7 +3,7 @@ create table Book (
   title varchar(25) not null,
   author varchar(25) not null,
   publication_date varchar(100) not null,
-  edition int not null
+  edition int
 );
 
 INSERT INTO Book (id, title, author, publication_date, edition) VALUES
